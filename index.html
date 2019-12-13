@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Feki.de - Weihnachtsfeier Rechner</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/rechner.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Feki.de - Weihnachtsfeier</h1>
+        <div id="gesamt-summe">
+            Kontostand: <span id="sum"></span> €
+        </div>
+        <hr>
+        <div class="form-group">
+            <label for="einzahlung">Geld einzahlen</label>
+            <input type="number" class="form-control" id="einzahlung" placeholder="10">
+        </div>
+        <button id="einzahlen" type="submit" class="btn btn-primary">Einzahlen</button>
+        <hr>
+        <div id="buttons">
+            <button type="button" id="eins" class="btn btn-primary">1 Euro Getränk</button>
+            <button type="button" id="zwei" class="btn btn-secondary">2 Euro Getränk</button>
+            <button type="button" id="reset" class="btn btn-dark float-right">Reset</button>
+        </div>
+    </div>
+
+    <script src="js/rechner.js"></script>
+</body>
+
+</html>
